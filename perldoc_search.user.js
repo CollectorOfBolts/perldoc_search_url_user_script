@@ -20,5 +20,5 @@
 		var searchInput = document.getElementById("searchinput");
 		searchInput.value = params.get('q');
 		searchInput.nextElementSibling.click();
-	}, 200);
+	}, 250);
 })();
